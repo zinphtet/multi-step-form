@@ -17,12 +17,6 @@ const initialState = {
 	form3: [],
 };
 const myReducer = (state, action) => {
-	if (action.type === 'SET_FORM_3') {
-		console.log(state.form3);
-		console.log(typeof state.form3);
-
-		console.log(action.payload);
-	}
 	switch (action.type) {
 		case 'SET_FORM_NUM':
 			return {
