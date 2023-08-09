@@ -26,7 +26,7 @@ const Buttons = () => {
 	};
 
 	return (
-		<div className="  w-full flex items-center justify-between mb-12 mobile_l:mt-6 mobile_l:mb-0">
+		<div className="  w-full flex items-center justify-between mb-12 mt-10 mobile_l:mt-6 mobile_l:mb-0">
 			<button
 				onClick={formNum > 4 ? resetForm : prevForm}
 				className={`underline text-gray-600 ${formNum <= 1 && 'opacity-0'}`}
